@@ -4,6 +4,7 @@ import "../../index.css";
 
 
 import { HiLocationMarker } from "react-icons/hi";
+import CountUp from 'react-countup';
 
 const Hero = () => {
     return (
@@ -34,6 +35,18 @@ const Hero = () => {
                         <button className="button1">
                             Search
                         </button>
+                    </div>
+
+                    <div className="flexCenter stats">
+                        <div className="flexColStart stat">
+                            <span>
+                                <CountUp start={8800} end={9000} duration={4} />
+                                <span>+</span>
+                            </span>
+                            <span>
+                                Premeium Products
+                            </span>
+                        </div>
                     </div>
                 </div>
 
