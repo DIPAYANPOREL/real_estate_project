@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Residencies.css";
-import { Swiper, SwiperSlide, uesSwiper } from "swiper/react";
+// import "./Residencies.css";
+import { Swiper, SwiperSlide    , useSwiper } from "swiper/react";
 import "swiper/css";
 import data from "../../utils/slider.json";
 
@@ -14,6 +14,7 @@ const Residencies = () => {
                 </div>
             </div>
         </section>
+
     )
 };
 
