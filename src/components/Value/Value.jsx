@@ -22,6 +22,7 @@ const Value = () => {
                         <img src="./value.png" alt="image of buliding" />
                     </div>
                 </div>
+                {/* Right Side */}
                 <div className="flexColStart v-right">
                     <span className='orangeText' >Our Value</span>
                     <span className='primaryText'>Value We Give To You </span>
